@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotel-about us</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">CROWN</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="show-menu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rooms.html">rooms</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hotels
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Two-star</a>
+                            <a class="dropdown-item" href="#">Three-star</a>
+                            <a class="dropdown-item" href="#">four-star</a>
+                            <a class="dropdown-item" href="#">five-star</a>
+                        </div>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.us">contacts</a>
+                    </li>
+                    <li class="nav-item book d-flex align-items-center d-flex">
+                        <a class="nav-link" href="book.html">book now</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="home">
+        <div class="small-container">
+
+            <div class="row">
+                <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
+                    <h2>Crown Hotel is the best place to enjoy your holidays with luxory and comfort.</h2>
+                    <button><a href="#">About hotel</a></button>
+                </div>
+            </div>
+            <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+                <h1 style="margin-top: 20%;" class="text-capitalize">Welcome to <br><big><big><big>crown
+                                hotel</big></big></big></h1>
+                <div id="headerslider" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item carousel-three active"></div>
+                        <div class="carousel-item carousel-two"></div>
+                        <div class="carousel-item carousel-one"></div>
+                    </div>
+                    <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+                        <i class="fas fa-angle-double-left"></i>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+                        <i class="fas fa-angle-double-right"></i>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="st-rec"></div>
+        <div class="rd-rec"></div>
+    </header>
+    <!-- About Section -->
+    <section class="about py-5">
+        <div class="container">
+            <h2 class="-center">About Our Hotel</h2>
+            <div class="row">
+                <div class="col-lg-6">
+                    <p>A perfect place to enjoy your life with comfort and luxury. crown Hotel provides the best
+                        services and amenities for a wonderful stay.</p>
+                    <a href="#" class="btn btn-danger">Learn More</a>
+                </div>
+                <div class="col-lg-6">
+                    <img src="imgs/pic1.jpg" alt="About Hotel" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Parallax Section -->
+    <div class="jumbotron jumbotron-fluid text-center"
+        style="background-image: url('images/439191.jpg'); background-size: cover; background-attachment: fixed;">
+        <div class="container">
+            <div class="overlay"></div>
+            <h1 style="color: rgb(245, 245, 246);" class="display-4">Choose Our Hotel</h1>
+            <p style="color: rgb(244, 8, 8);" class="lead">Enjoy with love by the fine folks at <a href="#">Crown
+                    hotel</a></p>
+        </div>
+    </div>
+
+    <!-- Hotel Section -->
+    <div class="container py-5">
+        <div class="row">
+            <!-- Hotel 1 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-top"
+                        style="background-image: url('images/bed1.jpg'); background-size: cover; height: 250px; position: relative;">
+                        <div class="price badge badge-dark" style="position: absolute; top: 10px; right: 10px;">
+                            <small>For as low as</small><br>$100/night
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hotel Name</a></h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts.</p>
+                        <a href="#" class="btn btn-danger btn-block"><i class="ti-calendar"></i> Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel 2 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-top"
+                        style="background-image: url('images/bed2.jpg'); background-size: cover; height: 250px; position: relative;">
+                        <div class="price badge badge-dark" style="position: absolute; top: 10px; right: 10px;">
+                            <small>For as low as</small><br>$100/night
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hotel Name</a></h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts.</p>
+                        <a href="#" class="btn btn-danger btn-block"><i class="ti-calendar"></i> Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel 3 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-top"
+                        style="background-image: url('images/bed3.jpg'); background-size: cover; height: 250px; position: relative;">
+                        <div class="price badge badge-dark" style="position: absolute; top: 10px; right: 10px;">
+                            <small>For as low as</small><br>$100/night
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hotel Name</a></h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts.</p>
+                        <a href="#" class="btn btn-danger btn-block"><i class="ti-calendar"></i> Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel 4 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-top"
+                        style="background-image: url('images/room1.jpg'); background-size: cover; height: 250px; position: relative;">
+                        <div class="price badge badge-dark" style="position: absolute; top: 10px; right: 10px;">
+                            <small>For as low as</small><br>$100/night
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hotel Name</a></h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts.</p>
+                        <a href="#" class="btn btn-danger btn-block"><i class="ti-calendar"></i> Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel 5 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-top"
+                        style="background-image: url('images/room11.jpg'); background-size: cover; height: 250px; position: relative;">
+                        <div class="price badge badge-dark" style="position: absolute; top: 10px; right: 10px;">
+                            <small>For as low as</small><br>$100/night
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hotel Name</a></h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts.</p>
+                        <a href="#" class="btn btn-danger btn-block"><i class="ti-calendar"></i> Book Now</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Hotel 6 -->
+            <div class="col-md-4">
+                <div class="card mb-4">
+                    <div class="card-img-top"
+                        style="background-image: url('images/room12.jpg'); background-size: cover; height: 250px; position: relative;">
+                        <div class="price badge badge-dark" style="position: absolute; top: 10px; right: 10px;">
+                            <small>For as low as</small><br>$100/night
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"><a href="#">Hotel Name</a></h5>
+                        <p class="card-text">Far far away, behind the word mountains, far from the countries Vokalia and
+                            Consonantia, there live the blind texts.</p>
+                        <a href="#" class="btn btn-danger btn-block"><i class="ti-calendar"></i> Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container my-5">
+        <div class="row">
+            <!-- Service Box 1 -->
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="service-icon fas fa-map-marker-alt"></i>
+                    <h4 class="mt-3">Accessible Location</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+
+            <!-- Service Box 2 -->
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="service-icon fas fa-clock"></i>
+                    <h4 class="mt-3">Open 24/7</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+
+            <!-- Service Box 3 -->
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="service-icon fas fa-calendar-alt"></i>
+                    <h4 class="mt-3">Reservation</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <!-- Service Box 4 -->
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="service-icon fas fa-user-friends"></i>
+                    <h4 class="mt-3">Friendly Staff</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+
+            <!-- Service Box 5 -->
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="service-icon fas fa-wifi"></i>
+                    <h4 class="mt-3">Free Wifi</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+
+            <!-- Service Box 6 -->
+            <div class="col-md-4">
+                <div class="service-box">
+                    <i class="service-icon fas fa-map-marker-alt"></i>
+                    <h4 class="mt-3">Accessible Location</h4>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there
+                        live the blind texts.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid gallery">
+        <h2>Gallery</h2>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting</p>
+
+        <div class="row">
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/bed1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/bed2.jpg" alt="Image 2" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/bed3.jpg" alt="Image 3" class="img-fluid">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/room1.jpg" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/room15.jpg" alt="Image 2" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/room11.jpg" alt="Image 3" class="img-fluid">
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/room12.jpg" alt="Image 1" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/room13.jpg" alt="Image 2" class="img-fluid">
+            </div>
+            <div class="col-lg-4 col-md-6 gallery-item">
+                <img src="./images/room14.jpg" alt="Image 3" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <section>
+            <div class="row justify-content-center">
+                <div class="col-md-10 col-xl-8 text-center">
+                    <h3 class="mb-4">Testimonials</h3>
+                    <p class="mb-4 pb-2 mb-md-5 pb-md-0">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit, error amet
+                        numquam iure provident voluptate esse quasi, veritatis totam voluptas nostrum
+                        quisquam eum porro a pariatur veniam.
+                    </p>
+                </div>
+            </div>
+            <div class="container-fluid">
+                <section class="p-4 p-md-5 text-center text-lg-start shadow rounded" style="
+    background-image: url(https://mdbcdn.b-cdn.net/img/Photos/Others/background3.webp);
+  ">
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-md-10">
+                            <div class="card">
+                                <div class="card-body m-3">
+                                    <div class="row">
+                                        <div
+                                            class="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
+                                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.webp"
+                                                class="rounded-circle img-fluid shadow" alt="woman avatar" width="200"
+                                                height="200" />
+                                        </div>
+                                        <div class="col-lg-8">
+                                            <p class="text-muted font-weight-light mb-4">
+                                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id quam
+                                                sapiente
+                                                molestiae numquam quas, voluptates omnis nulla ea odio quia similique
+                                                corrupti magnam.
+                                            </p>
+                                            <p class="font-weight-bold lead mb-2"><strong>Anna Smith</strong></p>
+                                            <p class="font-weight-bold text-muted mb-0">Maalik</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+            <br>
+            <br>
+
+            <div class="row text-center d-flex align-items-stretch">
+                <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-header" style="background-color: #9d789b;"></div>
+                        <div class="avatar mx-auto bg-white mt-3">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">Maria Smantha</h4>
+                            <h5 class="mb-4">Manager</h5>
+
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-header" style="background-color: #7a81a8;"></div>
+                        <div class="avatar mx-auto bg-white mt-3">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">Lisa Cudrow</h4>
+                            <h6 class="text-primary mb-3">C.E.O</h6>
+
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Neque cupiditate assumenda in maiores
+                                repudi mollitia architecto.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-header" style="background-color: #6d5b98;"></div>
+                        <div class="avatar mx-auto bg-white mt-3">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">John Smith</h4>
+                            <h6 class="text-primary mb-3">Production</h6>
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Delectus impedit saepe officiis ab
+                                aliquam repellat rem unde ducimus.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-5 mb-md-0 d-flex align-items-stretch">
+                    <div class="card testimonial-card">
+                        <div class="card-header" style="background-color: #9d789b;"></div>
+                        <div class="avatar mx-auto bg-white mt-3">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                class="rounded-circle img-fluid" />
+                        </div>
+                        <div class="card-body">
+                            <h4 class="mb-4">Maria Smantha</h4>
+                            <h6 class="text-primary mb-3">Designer</h6>
+                            <h5 class="mb-4"></h5>
+
+                            <hr />
+                            <p class="dark-grey-text mt-4">
+                                <i class="fas fa-quote-left pe-2"></i>Lorem ipsum dolor sit amet eos adipisci,
+                                consectetur adipisicing elit.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+
+    <!-- footer -->
+    <footer style="margin-top:10% ;" class="bg-light text-center text-lg-start">
+        <div class="container p-4">
+            <div class="row">
+                <!-- Company Column -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-alert">About Us</a></li>
+                        <li><a href="#!" class="text-alert">Hotels</a></li>
+                        <li><a href="#!" class="text-alert">Customer Care</a></li>
+                        <li><a href="#!" class="text-alert">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Our Facilities Column -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5 class="text-uppercase">Our Facilities</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#!" class="text-alert">Restaurant</a></li>
+                        <li><a href="#!" class="text-alert">Bars</a></li>
+                        <li><a href="#!" class="text-alert">Pick-up</a></li>
+                        <li><a href="#!" class="text-alert">Swimming Pool</a></li>
+                        <li><a href="#!" class="text-alert">Spa</a></li>
+                        <li><a href="#!" class="text-alert">Gym</a></li>
+                    </ul>
+                </div>
+
+                <!-- Subscribe Column -->
+                <div class="col-lg-4 col-md-12 mb-4">
+                    <h5 class="text-uppercase">Subscribe</h5>
+                    <p>Sed cursus ut nibh in semper. Mauris varius et magna in fermentum.</p>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                        <div class="input-group-append">
+                            <button class="btn btn-danger" type="button">Send</button>
+                        </div>
+                    </div>
+
+                    <!-- Social Media Icons -->
+                    <div>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright -->
+        <div class="text-center p-3 bg-dark">
+            © 2016 Crown Hotel. All Rights Reserved. Designed by <a href="@rahulkumawat"
+                class="text-alert">Ratiwalrahul.co</a>.
+            <a href="http://crownhotel.com" class="text-alert"></a>
+        </div>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>

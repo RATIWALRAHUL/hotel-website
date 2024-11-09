@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Hotel-rooms</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/fontawesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Lobster|Lobster+Two|Noto+Serif" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light text-capitalize main-font-family">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">CROWN</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#show-menu"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>;
+
+      <div class="collapse navbar-collapse" id="show-menu">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="rooms.html">rooms</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                hotels
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Two-star</a>
+                <a class="dropdown-item" href="#">Three-star</a>
+                <a class="dropdown-item" href="#">four-star</a>
+                <a class="dropdown-item" href="#">five-star</a>
+            </div>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="contact.us">contacts</a>
+        </li>
+        <li class="nav-item book d-flex align-items-center d-flex">
+            <a class="nav-link" href="book.html">book now</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="home">
+    <div class="small-container">
+
+      <div class="row">
+        <div class="col-lg-4 col-12 lobster-font-family d-flex align-items-center">
+          <h2>Crown Hotel  will give you the best rooms to enjoy your holidays with luxory and comfort.</h2>
+          <button><a href="#">About hotel</a></button>
+        </div>
+      </div>
+      <div class="h-slider roboto-font-family welcome d-flex align-items-center justify-content-center">
+        <h1 style="margin-top: 20%;" class="text-capitalize">Welcome to <br><big><big><big>crown hotel</big></big></big>
+        </h1>
+        <div id="headerslider" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item carousel-three active"></div>
+            <div class="carousel-item carousel-two"></div>
+            <div class="carousel-item carousel-one"></div>
+          </div>
+          <a class="carousel-control-prev" href="#headerslider" role="button" data-slide="prev">
+            <i class="fas fa-angle-double-left"></i>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#headerslider" role="button" data-slide="next">
+            <i class="fas fa-angle-double-right"></i>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="st-rec"></div>
+    <div class="rd-rec"></div>
+  </header>
+  <!-- About Section -->
+  <section class="about py-5">
+    <div class="container">
+      <h2 class="-center">About Our Rooms</h2>
+      <div class="row">
+        <div class="col-lg-6">
+          <p>A perfect place to enjoy your life with comfort and luxury. Crown Hotel provides the best services and
+            amenities for a wonderful stay.</p>
+          <a href="#" class="btn btn-danger">Learn More</a>
+        </div>
+        <div class="col-lg-6">
+          <img src="imgs/pic1.jpg" alt="About Hotel" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- rooms -->
+   <div class="rooms__sections">
+<h2 class="categoryrooms">OUR ROOMS</h2>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/hotel-a17-1-2.jpg" class="card-img-top room-image" alt="Room 1">
+        <div class="card-body">
+          <h5 class="card-title">Luxury Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price"> $ 690/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/room1.jpg" class="card-img-top room-image" alt="Room 2">
+        <div class="card-body">
+          <h5 class="card-title">Luxury double-bed Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price">$ 269/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/hotel-a17-1-1.jpg" class="card-img-top room-image" alt="Room 1">
+        <div class="card-body">
+          <h5 class="card-title">Luxury couple Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price"> $ 690/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/hotel-a17-1-1.jpg" class="card-img-top room-image" alt="Room 1">
+        <div class="card-body">
+          <h5 class="card-title">Luxury couple Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price"> $ 690/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/room11.jpg" class="card-img-top room-image" alt="Room 2">
+        <div class="card-body">
+          <h5 class="card-title">Luxury 2-double-bed Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price">$ 269/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/room3.jpg" class="card-img-top room-image" alt="Room 2">
+        <div class="card-body">
+          <h5 class="card-title">Luxury traditionals Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price">$ 269/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/hotel-a17-1-3.jpg" class="card-img-top room-image" alt="Room 1">
+        <div class="card-body">
+          <h5 class="card-title">Luxury night-out Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price"> $ 690/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/room11.jpg" class="card-img-top room-image" alt="Room 2">
+        <div class="card-body">
+          <h5 class="card-title">Luxury 2-double-bed Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price">$ 269/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <div class="card room-card">
+        <img src="./images/room16.jpg" class="card-img-top room-image" alt="Room 2">
+        <div class="card-body">
+          <h5 class="card-title">Luxury Eco Room</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae iste suscipit quam
+            accusamus! Libero, sint.</p>
+          <ul class="list-unstyled">
+            <li><strong>Max:</strong> 4 Persons</li>
+            <li><strong>Size:</strong> 35 m2 / 299 ft2</li>
+            <li><strong>View:</strong> Sea</li>
+            <li><strong>Bed:</strong> King size or twin beds</li>
+          </ul>
+          <div class="price">$ 269/night</div>
+          <a href="#" class="btn btn-outline-danger mt-3">View Details</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="container-fluid">
+<section class="bg-light py-5">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-md-10 col-lg-8">
+        <h2 class="text-secondary text-uppercase text-center mb-2">Happy Customers</h2>
+        <p class="display-4 mb-4 text-center">We deliver what we promise. See what clients are expressing about us.</p>
+        <hr class="w-50 mx-auto mb-5 border-dark">
+      </div>
+    </div>
+  </div>
+
+  <div class="container overflow-hidden">
+    <div class="row">
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm">
+          <div class="card-body p-4">
+            <figure>
+              <img class="img-fluid rounded-circle mb-4 border border-primary" loading="lazy" src="./assets/img/testimonial-img-1.jpg" alt="Luna John">
+              <figcaption>
+                <div class="text-warning mb-3">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <blockquote class="blockquote mb-4">We were so impressed with the work they did for us. They were able to take our vision and turn it into a reality, and they did it all on time and within budget. We would highly recommend them to anyone looking for a reliable partner.</blockquote>
+                <h4 class="mb-2">Luna John</h4>
+                <h5 class="text-secondary mb-0">UX Designer</h5>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm">
+          <div class="card-body p-4">
+            <figure>
+              <img class="img-fluid rounded-circle mb-4 border border-primary" loading="lazy" src="./assets/img/testimonial-img-2.jpg" alt="Mark Smith">
+              <figcaption>
+                <div class="text-warning mb-3">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star-o"></span>
+                </div>
+                <blockquote class="blockquote mb-4">We were looking for a company that could help us develop a new website that was both visually appealing and user-friendly. We are so happy with the results, and we would highly recommend them to anyone looking for a new website.</blockquote>
+                <h4 class="mb-2">Mark Smith</h4>
+                <h5 class="text-secondary mb-0">Marketing Specialist</h5>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4">
+        <div class="card border-0 border-bottom border-primary shadow-sm">
+          <div class="card-body p-4">
+            <figure>
+              <img class="img-fluid rounded-circle mb-4 border border-primary" loading="lazy" src="./assets/img/testimonial-img-4.jpg" alt="Luke Reeves">
+              <figcaption>
+                <div class="text-warning mb-3">
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                  <span class="fa fa-star"></span>
+                </div>
+                <blockquote class="blockquote mb-4">We were looking for a company that could help us with our branding. We needed a website and marketing materials. They were able to create a brand identity that we loved. They worked with us to develop a logo that represented our company.</blockquote>
+                <h4 class="mb-2">Luke Reeves</h4>
+                <h5 class="text-secondary mb-0">Sales Manager</h5>
+              </figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </div>
+  
+  <!-- footer -->
+  <footer class="bg-light text-center text-lg-start">
+    <div class="container p-4">
+      <div class="row">
+        <!-- Company Column -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h5 class="text-uppercase">Company</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!" class="text-alert">About Us</a></li>
+            <li><a href="#!" class="text-alert">Hotels</a></li>
+            <li><a href="#!" class="text-alert">Customer Care</a></li>
+            <li><a href="#!" class="text-alert">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <!-- Our Facilities Column -->
+        <div class="col-lg-4 col-md-6 mb-4">
+          <h5 class="text-uppercase">Our Facilities</h5>
+          <ul class="list-unstyled">
+            <li><a href="#!" class="text-alert">Restaurant</a></li>
+            <li><a href="#!" class="text-alert">Bars</a></li>
+            <li><a href="#!" class="text-alert">Pick-up</a></li>
+            <li><a href="#!" class="text-alert">Swimming Pool</a></li>
+            <li><a href="#!" class="text-alert">Spa</a></li>
+            <li><a href="#!" class="text-alert">Gym</a></li>
+          </ul>
+        </div>
+
+        <!-- Subscribe Column -->
+        <div class="col-lg-4 col-md-12 mb-4">
+          <h5 class="text-uppercase">Subscribe</h5>
+          <p>Sed cursus ut nibh in semper. Mauris varius et magna in fermentum.</p>
+          <div class="input-group mb-3">
+            <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+            <div class="input-group-append">
+              <button class="btn btn-danger" type="button">Send</button>
+            </div>
+          </div>
+
+          <!-- Social Media Icons -->
+          <div>
+            <a href="#" class="text-dark me-2"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-dark me-2"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" class="text-dark me-2"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-dark"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Copyright -->
+    <div class="text-center p-3 bg-dark">
+      © 2016 Crown Hotel. All Rights Reserved. Designed by <a href="@rahulkumawat"
+        class="text-alert">Ratiwalrahul.co</a>.
+      <a href="http://crownhotel.com" class="text-alert"></a>
+    </div>
+  </footer>
+
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
